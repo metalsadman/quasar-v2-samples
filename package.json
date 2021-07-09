@@ -1,0 +1,45 @@
+{
+  "name": "quasar-v2-samples",
+  "version": "0.0.1",
+  "description": "",
+  "productName": "Quasar App",
+  "author": "add.your.email@here.com",
+  "private": true,
+  "scripts": {
+    "start": "quasar dev",
+    "post-update": "yarn upgrade --latest",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@quasar/extras": "1.10.8",
+    "@tiptap/starter-kit": "2.0.0-beta.81",
+    "@tiptap/vue-3": "2.0.0-beta.45",
+    "axios": "0.21.1",
+    "core-js": "^3.6.5",
+    "primeflex": "2.0.0",
+    "primeicons": "4.1.0",
+    "primevue": "3.5.1",
+    "quasar": "2.0.1",
+    "vuex": "4.0.2"
+  },
+  "devDependencies": {
+    "@quasar/app": "^3.0.1"
+  },
+  "browserslist": [
+    "last 10 Chrome versions",
+    "last 10 Firefox versions",
+    "last 4 Edge versions",
+    "last 7 Safari versions",
+    "last 8 Android versions",
+    "last 8 ChromeAndroid versions",
+    "last 8 FirefoxAndroid versions",
+    "last 10 iOS versions",
+    "last 5 Opera versions"
+  ],
+  "engines": {
+    "node": ">= 10.17.0",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.19.1"
+  },
+  "keywords": []
+}
